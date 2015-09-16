@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Armwrestling</string>
+		<key>relatedPerson</key>
+		<string>Kaloyan</string>
+		<key>duration</key>
+		<string>2h 0m</string>
+		<key>description</key>
+		<string>Armwrestling lesson with Kaloyan &quot;Hvata&quot;</string>
+		<key>image</key>
+		<string>arm</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>MMA</string>
+		<key>relatedPerson</key>
+		<string>Lecture</string>
+		<key>duration</key>
+		<string>4h 0m</string>
+		<key>description</key>
+		<string>How to do it like a pro </string>
+		<key>image</key>
+		<string>mmacademy</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Pool Party</string>
+		<key>relatedPerson</key>
+		<string>Spens</string>
+		<key>duration</key>
+		<string>5h 30m</string>
+		<key>description</key>
+		<string>Pool Party with wet Tshirt contest</string>
+		<key>image</key>
+		<string>poolparty</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Groceries</string>
+		<key>relatedPerson</key>
+		<string>Lora</string>
+		<key>duration</key>
+		<string>2h 10m</string>
+		<key>description</key>
+		<string>Buy all items from the list</string>
+		<key>image</key>
+		<string>market</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Movie Night</string>
+		<key>relatedPerson</key>
+		<string>Boyan</string>
+		<key>duration</key>
+		<string>4h 0m</string>
+		<key>description</key>
+		<string>Watch &quot;The Avengers&quot; and drink beer</string>
+		<key>image</key>
+		<string>cinema</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Visit Parents</string>
+		<key>relatedPerson</key>
+		<string>Mum and Dad</string>
+		<key>duration</key>
+		<string>24h 0m</string>
+		<key>description</key>
+		<string>Go see mum and dad and help them out</string>
+		<key>image</key>
+		<string>home</string>
+	</dict>
+</array>
+</plist>
