@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFD5663C1BC5581E00B447CF /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD5663B1BC5581E00B447CF /* DrawingViewController.m */; };
+		EFE3D6671BC42FDA00739247 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE3D6661BC42FDA00739247 /* main.m */; };
+		EFE3D66A1BC42FDA00739247 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE3D6691BC42FDA00739247 /* AppDelegate.m */; };
+		EFE3D6701BC42FDA00739247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE3D66E1BC42FDA00739247 /* Main.storyboard */; };
+		EFE3D6721BC42FDA00739247 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE3D6711BC42FDA00739247 /* Images.xcassets */; };
+		EFE3D6751BC42FDA00739247 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFE3D6731BC42FDA00739247 /* LaunchScreen.xib */; };
+		EFE3D6811BC42FDA00739247 /* CatAlbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE3D6801BC42FDA00739247 /* CatAlbumTests.m */; };
+		EFE3D68E1BC4303C00739247 /* CatAlbumCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE3D68D1BC4303C00739247 /* CatAlbumCollectionViewController.m */; };
+		EFE3D6911BC4305100739247 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE3D6901BC4305100739247 /* DetailedViewController.m */; };
+		EFE3D6951BC4377C00739247 /* CatsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE3D6941BC4377C00739247 /* CatsCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFE3D67B1BC42FDA00739247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE3D6591BC42FD900739247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE3D6601BC42FDA00739247;
+			remoteInfo = CatAlbum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFD5663A1BC5581E00B447CF /* DrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingViewController.h; sourceTree = "<group>"; };
+		EFD5663B1BC5581E00B447CF /* DrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingViewController.m; sourceTree = "<group>"; };
+		EFE3D6611BC42FDA00739247 /* CatAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE3D6651BC42FDA00739247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE3D6661BC42FDA00739247 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFE3D6681BC42FDA00739247 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFE3D6691BC42FDA00739247 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFE3D66F1BC42FDA00739247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFE3D6711BC42FDA00739247 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFE3D6741BC42FDA00739247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFE3D67A1BC42FDA00739247 /* CatAlbumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatAlbumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE3D67F1BC42FDA00739247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE3D6801BC42FDA00739247 /* CatAlbumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatAlbumTests.m; sourceTree = "<group>"; };
+		EFE3D68C1BC4303C00739247 /* CatAlbumCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatAlbumCollectionViewController.h; sourceTree = "<group>"; };
+		EFE3D68D1BC4303C00739247 /* CatAlbumCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatAlbumCollectionViewController.m; sourceTree = "<group>"; };
+		EFE3D68F1BC4305100739247 /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		EFE3D6901BC4305100739247 /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
+		EFE3D6931BC4377C00739247 /* CatsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatsCollectionViewCell.h; sourceTree = "<group>"; };
+		EFE3D6941BC4377C00739247 /* CatsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatsCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFE3D65E1BC42FDA00739247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE3D6771BC42FDA00739247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFE3D6581BC42FD900739247 = {
+			isa = PBXGroup;
+			children = (
+				EFE3D6631BC42FDA00739247 /* CatAlbum */,
+				EFE3D67D1BC42FDA00739247 /* CatAlbumTests */,
+				EFE3D6621BC42FDA00739247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFE3D6621BC42FDA00739247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3D6611BC42FDA00739247 /* CatAlbum.app */,
+				EFE3D67A1BC42FDA00739247 /* CatAlbumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE3D6631BC42FDA00739247 /* CatAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3D66E1BC42FDA00739247 /* Main.storyboard */,
+				EFE3D6711BC42FDA00739247 /* Images.xcassets */,
+				EFE3D6731BC42FDA00739247 /* LaunchScreen.xib */,
+				EFE3D68B1BC4301000739247 /* Controllers */,
+				EFE3D68A1BC42FFB00739247 /* ViewControllers */,
+				EFE3D6921BC4375100739247 /* Cells */,
+				EFE3D6641BC42FDA00739247 /* Supporting Files */,
+			);
+			path = CatAlbum;
+			sourceTree = "<group>";
+		};
+		EFE3D6641BC42FDA00739247 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3D6651BC42FDA00739247 /* Info.plist */,
+				EFE3D6661BC42FDA00739247 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFE3D67D1BC42FDA00739247 /* CatAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3D6801BC42FDA00739247 /* CatAlbumTests.m */,
+				EFE3D67E1BC42FDA00739247 /* Supporting Files */,
+			);
+			path = CatAlbumTests;
+			sourceTree = "<group>";
+		};
+		EFE3D67E1BC42FDA00739247 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3D67F1BC42FDA00739247 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFE3D68A1BC42FFB00739247 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3D68C1BC4303C00739247 /* CatAlbumCollectionViewController.h */,
+				EFE3D68D1BC4303C00739247 /* CatAlbumCollectionViewController.m */,
+				EFE3D68F1BC4305100739247 /* DetailedViewController.h */,
+				EFE3D6901BC4305100739247 /* DetailedViewController.m */,
+				EFD5663A1BC5581E00B447CF /* DrawingViewController.h */,
+				EFD5663B1BC5581E00B447CF /* DrawingViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EFE3D68B1BC4301000739247 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3D6681BC42FDA00739247 /* AppDelegate.h */,
+				EFE3D6691BC42FDA00739247 /* AppDelegate.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EFE3D6921BC4375100739247 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3D6931BC4377C00739247 /* CatsCollectionViewCell.h */,
+				EFE3D6941BC4377C00739247 /* CatsCollectionViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFE3D6601BC42FDA00739247 /* CatAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE3D6841BC42FDA00739247 /* Build configuration list for PBXNativeTarget "CatAlbum" */;
+			buildPhases = (
+				EFE3D65D1BC42FDA00739247 /* Sources */,
+				EFE3D65E1BC42FDA00739247 /* Frameworks */,
+				EFE3D65F1BC42FDA00739247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatAlbum;
+			productName = CatAlbum;
+			productReference = EFE3D6611BC42FDA00739247 /* CatAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFE3D6791BC42FDA00739247 /* CatAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE3D6871BC42FDA00739247 /* Build configuration list for PBXNativeTarget "CatAlbumTests" */;
+			buildPhases = (
+				EFE3D6761BC42FDA00739247 /* Sources */,
+				EFE3D6771BC42FDA00739247 /* Frameworks */,
+				EFE3D6781BC42FDA00739247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE3D67C1BC42FDA00739247 /* PBXTargetDependency */,
+			);
+			name = CatAlbumTests;
+			productName = CatAlbumTests;
+			productReference = EFE3D67A1BC42FDA00739247 /* CatAlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE3D6591BC42FD900739247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kaloyan Petrov";
+				TargetAttributes = {
+					EFE3D6601BC42FDA00739247 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EFE3D6791BC42FDA00739247 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EFE3D6601BC42FDA00739247;
+					};
+				};
+			};
+			buildConfigurationList = EFE3D65C1BC42FD900739247 /* Build configuration list for PBXProject "CatAlbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFE3D6581BC42FD900739247;
+			productRefGroup = EFE3D6621BC42FDA00739247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE3D6601BC42FDA00739247 /* CatAlbum */,
+				EFE3D6791BC42FDA00739247 /* CatAlbumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFE3D65F1BC42FDA00739247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE3D6701BC42FDA00739247 /* Main.storyboard in Resources */,
+				EFE3D6751BC42FDA00739247 /* LaunchScreen.xib in Resources */,
+				EFE3D6721BC42FDA00739247 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE3D6781BC42FDA00739247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFE3D65D1BC42FDA00739247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE3D66A1BC42FDA00739247 /* AppDelegate.m in Sources */,
+				EFE3D68E1BC4303C00739247 /* CatAlbumCollectionViewController.m in Sources */,
+				EFE3D6911BC4305100739247 /* DetailedViewController.m in Sources */,
+				EFE3D6671BC42FDA00739247 /* main.m in Sources */,
+				EFE3D6951BC4377C00739247 /* CatsCollectionViewCell.m in Sources */,
+				EFD5663C1BC5581E00B447CF /* DrawingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE3D6761BC42FDA00739247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE3D6811BC42FDA00739247 /* CatAlbumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFE3D67C1BC42FDA00739247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE3D6601BC42FDA00739247 /* CatAlbum */;
+			targetProxy = EFE3D67B1BC42FDA00739247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFE3D66E1BC42FDA00739247 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE3D66F1BC42FDA00739247 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFE3D6731BC42FDA00739247 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE3D6741BC42FDA00739247 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFE3D6821BC42FDA00739247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFE3D6831BC42FDA00739247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFE3D6851BC42FDA00739247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CatAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFE3D6861BC42FDA00739247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CatAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFE3D6881BC42FDA00739247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CatAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatAlbum.app/CatAlbum";
+			};
+			name = Debug;
+		};
+		EFE3D6891BC42FDA00739247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CatAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatAlbum.app/CatAlbum";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFE3D65C1BC42FD900739247 /* Build configuration list for PBXProject "CatAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE3D6821BC42FDA00739247 /* Debug */,
+				EFE3D6831BC42FDA00739247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE3D6841BC42FDA00739247 /* Build configuration list for PBXNativeTarget "CatAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE3D6851BC42FDA00739247 /* Debug */,
+				EFE3D6861BC42FDA00739247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE3D6871BC42FDA00739247 /* Build configuration list for PBXNativeTarget "CatAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE3D6881BC42FDA00739247 /* Debug */,
+				EFE3D6891BC42FDA00739247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFE3D6591BC42FD900739247 /* Project object */;
+}
